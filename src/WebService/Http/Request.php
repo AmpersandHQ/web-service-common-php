@@ -9,11 +9,6 @@ namespace MaxMind\WebService\Http;
  */
 interface Request
 {
-    /**
-     * @param $url
-     * @param $options
-     */
-    public function __construct($url, $options);
 
     /**
      * @param $body
